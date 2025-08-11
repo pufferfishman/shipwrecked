@@ -1,21 +1,23 @@
-
 @keyframes rotateGradient {
   0% {
     background-position: 0% 50%;
   }
   100% {
-    background-position: 100% 50%;
+    background-position: 800% 50%;
   }
 }
 body {
     height: 100vh;
-    background: linear-gradient(90deg, red, orange, yellow, orange, red);
-    background-size: 400% 400%;
-    animation: rotateGradient 1s linear infinite alternate;
+    background: linear-gradient(90deg, red, orange, yellow, orange, red, orange, yellow, orange, red);
+    background-size: 800% 400%;
+    animation: rotateGradient 10s linear infinite normal;
 }
 
 .leftBar{
     background-color: rgb(139, 255, 255);
+    max-width: 20%;
+    min-width: 20%;
+    padding: 3px;
 }
 
 .rightBar{
