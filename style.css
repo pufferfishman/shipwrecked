@@ -6,6 +6,7 @@
     background-position: 800% 50%;
   }
 }
+
 body {
     height: 100vh;
     background: linear-gradient(90deg, red, orange, yellow, orange, red, orange, yellow, orange, red);
