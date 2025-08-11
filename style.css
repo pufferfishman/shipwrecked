@@ -10,17 +10,32 @@
 body {
     height: 100vh;
     background: linear-gradient(90deg, red, orange, yellow, orange, red, orange, yellow, orange, red);
-    background-size: 800% 400%;
-    animation: rotateGradient 10s linear infinite normal;
+    background-size: 800% 800%;
+    animation: rotateGradient 20s linear infinite normal;
+    display: flex;
 }
 
-.leftBar{
+#mainArea{
+
+    background: linear-gradient(90deg, red, orange, yellow, orange, red, orange, yellow, orange, red);
+    background-size: 800% 400%;
+    animation: rotateGradient 20s linear infinite normal;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#leftBar{
     background-color: rgb(139, 255, 255);
     max-width: 20%;
     min-width: 20%;
     padding: 3px;
 }
 
-.rightBar{
+#rightBar{
     background-color: rgb(139, 255, 255);
+    max-width: 20%;
+    min-width: 20%;
+    padding: 3px;
 }
