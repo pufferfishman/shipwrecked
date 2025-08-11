@@ -8,6 +8,7 @@
 }
 
 body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     height: 100vh;
     background: linear-gradient(90deg, red, orange, yellow, orange, red, orange, yellow, orange, red);
     background-size: 800% 800%;
@@ -49,4 +50,7 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 20px rgba(60, 255, 0, 0.5);
+  cursor: pointer;
 }
+
+.
